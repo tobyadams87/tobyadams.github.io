@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toby Adams</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115;
+    --card: #ffffff10;
+    --text: #f5f5f7;
+    --accent: #7c9aff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid #ffffff22;
+    border-radius: 16px;
+    padding: 48px 32px;
+    max-width: 480px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+  }
+  p {
+    margin: 0 0 4px;
+    color: #c9c9d1;
+    line-height: 1.5;
+  }
+  .badge {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #10131a;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>👋 Hello, world!</h1>
+    <p>This is a tiny demo page hosted on GitHub Pages.</p>
+    <p>Edit it, push it, and the live site updates automatically.</p>
+    <span class="badge">It works!</span>
+  </div>
+</body>
+</html>
